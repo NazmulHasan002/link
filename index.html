@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute On The Hyperlink</title>
+</head>
+<body>
+    
+    <script>
+      var a = document.createElement('a');
+      var linkText = document.createTextNode("MY Profile Address");
+      a.appendChild(linkText);
+      a.title = "MY Profile Address";
+      a.href = "https://web.facebook.com/";
+      document.body.appendChild(a);
+    </script>
+    
+</body>
+</html>
